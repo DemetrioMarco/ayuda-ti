@@ -1,0 +1,146 @@
+/* General */
+
+body {
+    font-size: 15px;
+}
+
+.container-extended {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1599px;
+}
+
+.bi {
+    font-size: 1.5rem;
+}
+
+.fondo {
+    background: #2EC2E5;
+}
+
+.modal-content {
+    background-color: rgb(237, 245, 251);
+}
+
+.accordion-item {
+    margin-top: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# SAP Section
+--------------------------------------------------------------*/
+
+#sap {
+    width: 100%;
+    height: calc(45vh - 70px);
+    background-image: url("../img/SAP/SAP-BANNER.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    padding: 0;
+}
+
+@media (min-width: 1024px) {
+    #sap {
+        background-attachment: fixed;
+    }
+}
+
+.sap-banner {
+    z-index: 100;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.sap-text {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#sap .container {
+    z-index: 2;
+}
+
+#sap h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#sap h2 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+    #sap {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 992px) {
+    #sap {
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+    }
+}
+
+@media (max-width: 768px) {
+    #sap h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #sap h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+.introduccion img,
+svg {
+    vertical-align: middle;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.compras img,
+svg {
+    vertical-align: middle;
+    width: 40px;
+    margin-right: 5px;
+}
+
+
+/* Finanzas */
+
+.finanzas img,
+svg {
+    vertical-align: middle;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.finanzas h3 {
+    font-size: 1.3rem;
+}
+
+.finanzas p {
+    font-size: 16px;
+}
+
+#medio {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #medio {
+        width: 992px;
+    }
+}

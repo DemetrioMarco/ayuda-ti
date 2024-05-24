@@ -1,0 +1,99 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 align-middle">
+                <img src="assets/img/iconos/microsoft-365.svg" alt="microsoft">
+            </div>
+            <div class="col-3 align-self-center">
+                <h1> Microsoft 365</h1>
+            </div>
+            <div class="col-8 align-self-center text-center">
+                <h3>Aumenta tu potencial con Microsoft 365</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-4">
+                <div class="card">
+                    <img class="text-center m-2" src="assets/img/iconos/excel.svg" alt="excel" width="50">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h5>Microsoft Excel</h5>
+                            <p>Convierte los datos en conclusiones con hojas de datos, tablas dinámicas y dashboard.</p>
+                            <br>
+                            <button class="btn btn-outline-primary" (click)="redireccion(1)">
+                                Ir al curso
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <img class="text-center m-2" src="assets/img/iconos/planner.svg" alt="planner" width="50">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h5>Microsoft Planner</h5>
+                            <p>Organiza el trabajo en equipo con una administración de tareas intuitiva, colaboratica y visual.</p>
+                            <button class="btn btn-outline-primary" (click)="redireccion(2)">
+                                Ir al curso
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <img class="text-center m-2" src="assets/img/iconos/powerpoint.svg" alt="powerpoint" width="50">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h5>Microsoft PowerPoint</h5>
+                            <p>Convierte los datos en conclusiones con hojas de datos</p>
+                            <button class="btn btn-outline-primary" disabled>
+                                Ir al curso
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<!-- Modales -->
+<!-- Modal Introducción-->
+<div class="modal fade" id="video-intro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title col-11 text-center">Excel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: #15397f;" (click)="restart()"></button>
+            </div>
+            <div class="modal-body text-center bg-black">
+                <video id="videoIntro" width="100%" height="100%" controls>
+                    <source src="./assets/videos/EXCEL/Introducción/Introduccion.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>

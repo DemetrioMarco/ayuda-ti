@@ -1,0 +1,31 @@
+.bg-primary {
+    background: #199CDD !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .active>.nav-link {
+    color: #15397f;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+}
+
+.navbar-nav {
+    padding-left: 20px;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+@media (max-width: 992px) {
+    nav {
+        height: 50px;
+    }
+}

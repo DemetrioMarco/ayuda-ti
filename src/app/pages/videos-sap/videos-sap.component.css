@@ -1,0 +1,38 @@
+.video-player-wrapper {
+    max-width: 1200px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.player-list {
+    margin: 0;
+    padding: 0;
+}
+
+.player-list li {
+    list-style: none;
+    padding: 12px 15px;
+    display: block;
+    /* background: rgba(204, 204, 204, 0.541); */
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 1px;
+    border-top: 1px solid gray;
+}
+
+li.selected {
+    background: #03A9F4 !important;
+}
+
+.btn-outline-primary {
+    width: 150px !important;
+}
+
+.scroll {
+    height: 38em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
